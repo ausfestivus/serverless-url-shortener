@@ -4,7 +4,7 @@ This project represents a fully serverless implementation for a URL shortening u
 
 [![Free Azure Account](https://img.shields.io/badge/FREE-Azure-0077ff)](https://jlik.me/gmo) Get your [Free Azure Account](https://jlik.me/gmo)
 
-[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://jlik.me/50)
+[![Deploy to Azure](https://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
 
 This project leverages [Azure Resource Management Templates](https://jlik.me/6c) to make it easy to provision with a single click.
 
