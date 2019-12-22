@@ -10,14 +10,14 @@
     },
     "fallbackUrl": {
       "type": "string",
-      "defaultValue": "https://blog.jeremylikness.com/?utm_source=jelikness&utm_medium=github&utm_campaign=url_shortener",
+      "defaultValue": "https://ausfestivus.wordpress.com/?utm_source=jelikness&utm_medium=github&utm_campaign=url_shortener",
       "metadata": {
         "description": "The URL to fallback to if the short URL is invalid or not found"
       }
     },
     "utmSource": {
       "type": "string",
-      "defaultValue": "jeliknes",
+      "defaultValue": "ausfestivus",
       "metadata": {
         "description": "UTM_SOURCE for appending to end of URL for tracking"
       }
@@ -37,14 +37,14 @@
     },
     "sourceCodeRepositoryURL": {
       "type": "string",
-      "defaultValue": "https://github.com/JeremyLikness/serverless-url-shortener",
+      "defaultValue": "https://github.com/ausfestivus/serverless-url-shortener",
       "metadata": {
         "description": "Source code repository URL"
       }
     },
     "sourceCodeBranch": {
       "type": "string",
-      "defaultValue": "master",
+      "defaultValue": "develop/ausfestivus",
       "metadata": {
         "description": "Sourcecode Repo branch"
       }
@@ -61,7 +61,7 @@
       "type": "microsoft.insights/components",
       "apiVersion": "2015-05-01",
       "name": "[parameters('siteName')]",
-      "location": "South Central US",
+      "location": "Australia East",
       "tags": {
         "[concat('hidden-link:', resourceGroup().id, '/providers/Microsoft.Web/sites/', parameters('siteName'))]": "Resource"
       },
